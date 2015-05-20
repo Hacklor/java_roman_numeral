@@ -30,6 +30,15 @@ public class RomanNumeralTest {
     @Test
     public void additionsToArabic() {
         assertRoman(2, "II");
+        assertRoman(3, "III");
+        assertRoman(6, "VI");
+        assertRoman(15, "XV");
+        assertRoman(1050, "ML");
+    }
+
+    @Test
+    public void subtractionsToArabic() {
+        assertRoman(4, "IV");
     }
 
 }

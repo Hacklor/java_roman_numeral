@@ -1,12 +1,13 @@
 package com.philips.roman_numeral;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class RomanNumeral {
 
-    private static final Map<String, Integer> ROMANS = new HashMap<>();
+    private static final Map<String, Integer> ROMANS = new LinkedHashMap<>();
     {
+        ROMANS.put("IV", 4);
         ROMANS.put("I", 1);
         ROMANS.put("V", 5);
         ROMANS.put("X", 10);
@@ -19,7 +20,7 @@ public class RomanNumeral {
     public int toArabic(String roman) {
         for (String key : ROMANS.keySet())
             if (roman.startsWith(key))
-                return ROMANS.get(key) + toArabic(roman.substring(1));
+                return ROMANS.get(key) + toArabic(roman.substring(key.length()));
 
         return 0;
     }
