@@ -18,8 +18,8 @@ public class RomanNumeral {
 
     public int toArabic(String roman) {
         for (String key : ROMANS.keySet())
-            if (roman.equals(key))
-                return ROMANS.get(key);
+            if (roman.startsWith(key))
+                return ROMANS.get(key) + toArabic(roman.substring(1));
 
         return 0;
     }

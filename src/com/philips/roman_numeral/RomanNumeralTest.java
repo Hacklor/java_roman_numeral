@@ -27,4 +27,9 @@ public class RomanNumeralTest {
         assertRoman(1000, "M");
     }
 
+    @Test
+    public void additionsToArabic() {
+        assertRoman(2, "II");
+    }
+
 }
