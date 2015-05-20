@@ -7,13 +7,17 @@ import org.junit.Test;
 public class RomanNumeralTest {
     private final RomanNumeral romanNumeral = new RomanNumeral();
 
+    private void assertRoman(int expected, String roman) {
+        assertEquals(expected, romanNumeral.toArabic(roman));
+    }
+
     @Test
     public void emptyBecomesZero() {
-        assertEquals(0, romanNumeral.toArabic(""));
+        assertRoman(0, "");
     }
 
     @Test
     public void iBecomes1() {
-        assertEquals(1, romanNumeral.toArabic("I"));
+        assertRoman(1, "I");
     }
 }
