@@ -46,4 +46,10 @@ public class RomanNumeralTest {
         assertRoman(900, "CM");
     }
 
+    @Test
+    public void complexToArabic() {
+        assertRoman(1968, "MCMLXVIII");
+        assertRoman(1985, "MCMLXXXV");
+    }
+
 }
