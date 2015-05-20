@@ -6,6 +6,9 @@ public class RomanNumeral {
         if (roman.equals("I"))
             return 1;
 
+        if (roman.equals("V"))
+            return 5;
+
         return 0;
     }
 }

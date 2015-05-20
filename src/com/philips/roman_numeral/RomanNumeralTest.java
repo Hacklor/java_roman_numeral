@@ -20,4 +20,9 @@ public class RomanNumeralTest {
     public void iBecomes1() {
         assertRoman(1, "I");
     }
+
+    @Test
+    public void vBecomes5() {
+        assertRoman(5, "V");
+    }
 }
