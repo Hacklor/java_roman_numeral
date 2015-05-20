@@ -11,4 +11,9 @@ public class RomanNumeralTest {
     public void emptyBecomesZero() {
         assertEquals(0, romanNumeral.toArabic(""));
     }
+
+    @Test
+    public void iBecomes1() {
+        assertEquals(1, romanNumeral.toArabic("I"));
+    }
 }
