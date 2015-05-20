@@ -17,12 +17,10 @@ public class RomanNumeralTest {
     }
 
     @Test
-    public void iBecomes1() {
+    public void singleRomanNumeralToArabic() {
         assertRoman(1, "I");
+        assertRoman(5, "V");
+        assertRoman(10, "X");
     }
 
-    @Test
-    public void vBecomes5() {
-        assertRoman(5, "V");
-    }
 }
