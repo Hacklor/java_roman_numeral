@@ -39,6 +39,11 @@ public class RomanNumeralTest {
     @Test
     public void subtractionsToArabic() {
         assertRoman(4, "IV");
+        assertRoman(9, "IX");
+        assertRoman(40, "XL");
+        assertRoman(90, "XC");
+        assertRoman(400, "CD");
+        assertRoman(900, "CM");
     }
 
 }
