@@ -21,6 +21,10 @@ public class RomanNumeralTest {
         assertRoman(1, "I");
         assertRoman(5, "V");
         assertRoman(10, "X");
+        assertRoman(50, "L");
+        assertRoman(100, "C");
+        assertRoman(500, "D");
+        assertRoman(1000, "M");
     }
 
 }
