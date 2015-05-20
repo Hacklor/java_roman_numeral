@@ -16,6 +16,11 @@ public class RomanNumeralTest {
         assertRoman(0, "");
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void throws_illegalRoman() {
+        romanNumeral.toArabic("wut?");
+    }
+
     @Test
     public void singleRomanNumeralToArabic() {
         assertRoman(1, "I");

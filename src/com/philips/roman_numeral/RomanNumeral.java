@@ -23,10 +23,13 @@ public class RomanNumeral {
     }
 
     public int toArabic(String roman) {
+        if (roman.isEmpty())
+            return 0;
+
         for (String key : ROMANS.keySet())
             if (roman.startsWith(key))
                 return ROMANS.get(key) + toArabic(roman.substring(key.length()));
 
-        return 0;
+        throw new IllegalArgumentException();
     }
 }
