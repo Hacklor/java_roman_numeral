@@ -1,0 +1,791 @@
+<zuiprezi>
+  <version>7</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-130039.02979715164" y="-112276.32469698701" width="260078.05959430325" height="224552.64939397402"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>nl</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="15" type="button" x="-561.0142995179144" y="6.292491695044834e-12" r="0" s="209.13909788020305" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1241.6339215290386</w>
+        <h>1077.1169842456968</h>
+      </size>
+    </object>
+    <object id="12" type="text" x="-41873.17029866922" y="-61347.28925510034" r="0" s="458.0514908615333" class="head">
+      <height>30</height>
+      <width>-328.89599999999996</width>
+      <p>
+        <text><![CDATA[The Transformation Priority Premise]]></text>
+      </p>
+    </object>
+    <object id="16_1270154" type="button" x="-89917.39852465186" y="64122.100467573495" r="0" s="87.60226868298159" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="11_1270154" type="shape" x="-48138.945350328904" y="14494.137410331912" r="171.5750767936144" s="275.3132333454807" class="line3">
+      <geom type="arrow">
+        <sp>104.11835896090852 -28.40260113335335</sp>
+        <ep>-104.11835896090852 -28.40260113335339</ep>
+        <b>-56.805202266706736</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="12_1270154" type="shape" x="29365.018591995533" y="3716.164948756405" r="168.0737980513321" s="213.5432527249387" class="line3">
+      <geom type="arrow">
+        <sp>98.71053961799488 -28.937549133399617</sp>
+        <ep>-98.71053961799488 -28.937549133399664</ep>
+        <b>-57.87509826679928</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="13_1270154" type="shape" x="79720.99868692519" y="-1813.8535931697825" r="168.3764750058443" s="178.35912788771387" class="line3">
+      <geom type="arrow">
+        <sp>78.56632790802972 -24.750044449081027</sp>
+        <ep>-78.56632790802973 -24.750044449081056</ep>
+        <b>-49.50008889816208</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="11" type="button" x="-89918.67891951953" y="74336.1990555903" r="79.44931663370953" s="73.15950686685633" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>568.9151210550851</w>
+        <h>507.07239992615587</h>
+      </size>
+    </object>
+    <object id="30_1270154" type="text" x="-91757.3258589449" y="46225.94909467509" r="-3.706413337940473e-15" s="601.3874446530104" class="strong">
+      <height>28.752</height>
+      <width>75.75</width>
+      <p align="center">
+        <text color="16711680"><![CDATA[TDD]]></text>
+      </p>
+    </object>
+    <object id="34_1270154" type="button" x="-954.7436003361968" y="39393.56453584688" r="6.301918312741901" s="59.16967559784913" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="35_1270154" type="text" x="356.8183851887803" y="29165.08982986505" r="6.301918312741901" s="151.7851853003" class="strong">
+      <height>57.504</height>
+      <width>228.5</width>
+      <p align="center">
+        <text color="16711680"><![CDATA[What is the next test to write?]]></text>
+      </p>
+    </object>
+    <object id="37_1270154" type="button" x="58531.900533774846" y="24499.22606957199" r="6.301918312741902" s="43.71024354708992" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="40_1270154" type="button" x="103254.12380167157" y="12245.437904271635" r="6.301918312741888" s="28.936880598566628" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="41_1270154" type="text" x="103885.06117637304" y="6527.051601608735" r="6.301918312741901" s="100.58023126308244" class="strong">
+      <height>28.752</height>
+      <width>203.2</width>
+      <p align="center">
+        <text color="16711680"><![CDATA[Demo Time !]]></text>
+      </p>
+    </object>
+    <object id="1_683761" type="text" x="-769.8180120538136" y="38864.95895891379" r="6.301918312741894" s="82.30693563430364" class="body">
+      <height>59.6953125</height>
+      <width>370.9</width>
+      <p align="center">
+        <text><![CDATA[“As the tests get more specific, the code gets more generic.”]]></text>
+      </p>
+    </object>
+    <object id="3_683761" type="text" x="103162.06057942334" y="13075.527298135366" r="6.301918312741902" s="41.4215519918382" class="body">
+      <height>208.93359375</height>
+      <width>489.3</width>
+      <p align="center">
+        <text><![CDATA[Roman number decoder:]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[I=1, V=5, X=10, L=50, C=100, D=500, M=1000]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Sum the value of the symbols]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Subtract if symbol is followed by a symbol of higher value.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Example: XIV=14, or MCMLXVIII = 1968]]></text>
+      </p>
+    </object>
+    <object id="0_1522433" type="text" x="-29260.709506157054" y="-83666.40501307741" r="0" s="642.7916266373065" class="strong">
+      <height>28.752</height>
+      <width>-273.72</width>
+      <p>
+        <text color="8856395"><![CDATA[Code Transformations]]></text>
+      </p>
+    </object>
+    <object id="1" type="text" x="58752.162524890475" y="26257.439195189" r="6.301918312741893" s="34.57837683142499" class="body">
+      <height>447.71484375</height>
+      <width>826.25</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[({}–>nil): no code at all -> code that employs nil]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(nil->constant)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(constant->constant+): a simple constant to a more complex constant]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(constant->scalar): replacing a constant with a variable or an argument]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(statement->statements): adding more unconditional statements.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(unconditional->if): splitting the execution path]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(scalar->array)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(array->container)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(statement->tail-recursion)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(if->while)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(statement->recursion)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(expression->function): replace an expression by a function or algorithm]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(variable->assignment): replacing the value of a variable.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[(case) adding a case (or else) to an existing switch or if]]></text>
+      </p>
+    </object>
+    <object id="8" type="shape" x="-75320.78779615577" y="73294.30420607996" r="89.74885654556871" s="111.67484453460207" class="line1">
+      <geom type="arrow">
+        <sp>-56.916882738406734 6.62812812528718</sp>
+        <ep>56.916882738406734 6.62812812528718</ep>
+        <b>-13.25625625057436</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="9" type="shape" x="-95023.1333570527" y="84433.98686003113" r="31.50900627896232" s="111.67484453460185" class="line1">
+      <geom type="arrow">
+        <sp>57.14162763317914 -6.976124513283383</sp>
+        <ep>-57.14162763317914 -6.976124513283385</ep>
+        <b>-13.952249026566768</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="10" type="shape" x="-94669.33525313548" y="61894.61353469736" r="150.47108491800145" s="111.67484453460182" class="line1">
+      <geom type="arrow">
+        <sp>49.870370172377065 -5.728781222866586</sp>
+        <ep>-49.870370172377065 -5.728781222866603</ep>
+        <b>-11.457562445733188</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="13" type="button" x="-82340.82416008267" y="62060.4114943685" r="24.45428179992066" s="18.666814324403905" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="14" type="text" x="-82217.60049416857" y="61781.68455035096" r="24.45428179992064" s="194.5951496248936" class="strong">
+      <height>28.752</height>
+      <width>79.35</width>
+      <p align="center">
+        <text color="16711680"><![CDATA[RED]]></text>
+      </p>
+    </object>
+    <object id="17" type="button" x="-81854.68127926676" y="84807.60238736408" r="145.34419169279116" s="18.666814324403912" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="18" type="text" x="-81650.40892767436" y="85096.4235416081" r="145.34419169279116" s="168.1858078900865" class="strong">
+      <height>28.752</height>
+      <width>87.95</width>
+      <p align="center">
+        <text color="7326720"><![CDATA[Green]]></text>
+      </p>
+    </object>
+    <object id="20" type="button" x="-100503.29964252443" y="72862.67139367967" r="-89.31326080205255" s="18.666814324403894" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="21" type="text" x="-100503.36543653654" y="72865.56222925718" r="-89.31326080205255" s="126.36048676941132" class="strong">
+      <height>28.752</height>
+      <width>122.95</width>
+      <p align="center">
+        <text color="3247103"><![CDATA[Refactor]]></text>
+      </p>
+    </object>
+    <object id="24" type="text" x="-83770.5164681185" y="64836.66066165025" r="24.45428179992064" s="27.674671145542735" class="body">
+      <height>29.84765625</height>
+      <width>241.1</width>
+      <p align="center">
+        <text><![CDATA[Write a failing test]]></text>
+      </p>
+    </object>
+    <object id="25" type="text" x="-83772.40453436913" y="82033.17491252227" r="145.34419169279116" s="27.674671145542774" class="body">
+      <height>59.6953125</height>
+      <width>329.3</width>
+      <p align="center">
+        <text><![CDATA[Make the test pass with minimal code]]></text>
+      </p>
+    </object>
+    <object id="26" type="text" x="-97090.48659168112" y="72701.9891402045" r="-89.31326080205257" s="27.674671145542792" class="body">
+      <height>59.6953125</height>
+      <width>400.9</width>
+      <p align="center">
+        <text><![CDATA[Improve structure, without changing functionality]]></text>
+      </p>
+    </object>
+    <object id="29" type="button" x="-10228.557197516451" y="48958.38131819943" r="32.4933185954375" s="10.020670867377689" class="bracket">
+      <type>bracket</type>
+      <size>
+        <w>1280.394586354525</w>
+        <h>1128.2633053478485</h>
+      </size>
+    </object>
+    <object id="30" type="text" x="-8054.791033753837" y="45515.55998287382" r="32.49331859543745" s="27.67467114554282" class="strong">
+      <height>28.752</height>
+      <width>408.219834233059</width>
+      <p>
+        <text><![CDATA[...But how can I assure it does !?]]></text>
+      </p>
+    </object>
+    <object id="31" type="text" x="-10755.514961188228" y="46704.29819640921" r="32.4933185954375" s="15.09284357831385" class="body">
+      <height>208.93359375</height>
+      <width>532.7</width>
+      <p>
+        <text><![CDATA[@Testpublic void primeFactors() {]]></text>
+      </p>
+      <p indent="1">
+        <text><![CDATA[assertEquals(asList(),    PrimeFactors.of(1));  assertEquals(asList(2),   PrimeFactors.of(2));  assertEquals(asList(3),   PrimeFactors.of(3));  assertEquals(asList(2,2), PrimeFactors.of(4));]]></text>
+      </p>
+      <p indent="1">
+        <text><![CDATA[...]]></text>
+      </p>
+      <p>
+        <text><![CDATA[}]]></text>
+      </p>
+    </object>
+    <object id="32" type="text" x="-9373.892777978972" y="52601.67892115203" r="32.4933185954375" s="15.09284357831385" class="body">
+      <height>328.32421875</height>
+      <width>303.2</width>
+      <p>
+        <text><![CDATA[public class PrimeFactors {]]></text>
+      </p>
+      <p>
+        <text><![CDATA[  public static of(int n) {]]></text>
+      </p>
+      <p>
+        <text><![CDATA[    if (n == 1)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      return asList();]]></text>
+      </p>
+      <p>
+        <text><![CDATA[    else if (n == 2)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      return asList(2);]]></text>
+      </p>
+      <p>
+        <text><![CDATA[    else if (n == 3)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      return asList(3);]]></text>
+      </p>
+      <p>
+        <text><![CDATA[    else if (n == 4)]]></text>
+      </p>
+      <p>
+        <text><![CDATA[      return asList(2,2);]]></text>
+      </p>
+      <p>
+        <text><![CDATA[    ...]]></text>
+      </p>
+    </object>
+    <object id="33" type="shape" x="-11892.218441536124" y="49178.30827860283" r="75.04887877203241" s="13.837335572771417" class="line1">
+      <geom type="arrow">
+        <sp>-131.09570301832903 -25.65205103409869</sp>
+        <ep>131.09570301832903 -25.65205103409869</ep>
+        <b>51.30410206819738</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="34" type="text" x="-13414.074204546232" y="48914.65955015806" r="32.4933185954375" s="27.674671145542817" class="strong">
+      <height>28.752</height>
+      <width>-94.20000000000002</width>
+      <p>
+        <text color="16711680"><![CDATA[Oops...]]></text>
+      </p>
+    </object>
+    <object id="35" type="button" x="7233.380755489798" y="50408.89721264009" r="-23.79086448890069" s="19.335123026006823" class="bracket">
+      <type>bracket</type>
+      <size>
+        <w>679.7101957802834</w>
+        <h>587.6081909475715</h>
+      </size>
+    </object>
+    <object id="36" type="text" x="7589.6836625548285" y="50885.21355494499" r="-23.790864488900713" s="37.1169565938649" class="body">
+      <height>119.390625</height>
+      <width>298.85</width>
+      <p align="center">
+        <text><![CDATA[Choose the test that adds the least complexity to the code, but will make the code more generic.]]></text>
+      </p>
+    </object>
+    <object id="37" type="text" x="59866.05619487439" y="16159.010215908973" r="6.301918312741901" s="73.7363788563593" class="strong">
+      <height>57.504</height>
+      <width>636.75</width>
+      <p align="center">
+        <text color="16711680"><![CDATA[Code Transformations]]></text>
+      </p>
+      <p align="center">
+        <text color="16711680"><![CDATA[(Uncle Bob Martin, version 2)]]></text>
+      </p>
+    </object>
+    <object id="38" type="text" x="-17582.317007447215" y="-48284.0521638372" r="0" s="258.5581252136016" class="body">
+      <height>29.84765625</height>
+      <width>769.65</width>
+      <p>
+        <text><![CDATA[http://cleancoder.posterous.com/the-transformation-priority-premise]]></text>
+      </p>
+    </object>
+    <object id="39" type="text" x="95366.38520600765" y="92787.33215996811" r="0" s="258.5581252136016" class="body">
+      <height>89.54296875</height>
+      <width>268.2</width>
+      <p>
+        <text><![CDATA[Timo van de Put]]></text>
+      </p>
+      <p>
+        <text><![CDATA[Nicole Bekkers]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="40" type="text" x="5756.446155143465" y="47354.01834205058" r="-23.79086448890069" s="40.828652253251384" class="strong">
+      <height>28.752</height>
+      <width>272.8</width>
+      <p align="center">
+        <text color="16711680"><![CDATA[Guideline]]></text>
+      </p>
+    </object>
+    <object id="1_769008" type="button" x="-100101.05411381158" y="73296.69585356585" r="-89.31326080205255" s="0.15988635934833786" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1390.270598966251</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="2_769008" type="image" x="-100111.39296564572" y="73297.05968661109" r="-89.31326080205255" s="0.1970805266530952">
+      <source w="303" h="267" bt="389.3" bl="781.8">233792504<url>233792504.swf</url></source>
+      <sourceUrl>067_alert2.swf</sourceUrl>
+    <resource><id>233792504</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/e/4/218c0c8d29aa1e569ca3bf43e0436d6973318.swf</url></resource></object>
+    <object id="0_769008" type="text" x="-100069.44882056957" y="73297.57235775156" r="-89.31326080205255" s="0.7702592716520154" class="body">
+      <height>29.84765625</height>
+      <width>-258.984375</width>
+      <p>
+        <text><![CDATA["Refactor till you drop!"]]></text>
+      </p>
+    </object>
+  </zui-table>
+  <background>
+    <layer depth="39.96284882207442" fadescale="0.055051130358473824">
+      <object id="background240768588" type="image" x="43408.519601585795" y="-31069.990753064292" r="0" s="193.5885312469244">
+        <source w="3000" h="2000">240768588<url>240768588.jpg</url></source>
+        <sourceUrl>Horizon_scotlandhi.jpg</sourceUrl>
+      <resource><id>240768588</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/8/4/fa78b7aa25f8f024434efa996a895935d16cd.jpg</url></resource></object>
+    </layer>
+  </background>
+  <path>
+    <s>
+      <eagle o="15"/>
+    </s>
+    <s>
+      <eagle o="16_1270154"/>
+    </s>
+    <s>
+      <eagle o="13"/>
+    </s>
+    <s>
+      <eagle o="17"/>
+    </s>
+    <s>
+      <eagle o="20"/>
+    </s>
+    <s>
+      <eagle o="1_769008"/>
+    </s>
+    <s>
+      <eagle o="34_1270154"/>
+    </s>
+    <s>
+      <eagle o="29"/>
+    </s>
+    <s>
+      <eagle o="35"/>
+    </s>
+    <s>
+      <eagle o="37_1270154"/>
+    </s>
+    <s>
+      <eagle o="1"/>
+    </s>
+    <s>
+      <eagle o="40_1270154"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('LoveYaLikeASister.swf');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: LoveYaLikeASister;
+}
+
+@font-face
+{
+	src: url('LobsterTwo.swf');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: normal;
+	font-family: LobsterTwo;
+}
+
+@font-face
+{
+	src: url('Crial-Black.swf');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: normal;
+	font-weight: normal;
+	font-family: CrialBlack;
+}
+
+@font-face
+{
+	src: url('LoveYaLikeASister-B.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: LoveYaLikeASister;
+}
+
+@font-face
+{
+	src: url('LoveYaLikeASister-I.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: LoveYaLikeASister;
+}
+
+@font-face
+{
+	src: url('LoveYaLikeASister-BI.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: LoveYaLikeASister;
+}
+
+@font-face
+{
+	src: url('LobsterTwo-I.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: LobsterTwo;
+}
+
+@font-face
+{
+	src: url('LobsterTwo-BI.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: LobsterTwo;
+}
+
+@font-face
+{
+	src: url('LobsterTwo-B.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: LobsterTwo;
+}
+
+@font-face
+{
+	src: url('Crialblack-B.keg');
+	font-style: normal;
+	font-weight: bold;
+	font-family: CrialBlack;
+}
+
+@font-face
+{
+	src: url('Crialblack-I.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: CrialBlack;
+}
+
+@font-face
+{
+	src: url('Crialblack-BI.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: CrialBlack;
+}
+
+.line1
+{
+	color: #bd1550;
+	gradEndColor: #bd1550;
+	gradStartColor: #bd1550;
+}
+
+.line2
+{
+	color: #e97f02;
+	gradEndColor: #e97f02;
+	gradStartColor: #e97f02;
+}
+
+.line3
+{
+	color: #2f4e48;
+	gradEndColor: #2f4e48;
+	gradStartColor: #2f4e48;
+}
+
+.line4
+{
+	color: #f8ca00;
+	gradEndColor: #f8ca00;
+	gradStartColor: #f8ca00;
+}
+
+.line5
+{
+	color: #490a3d;
+	gradEndColor: #490a3d;
+	gradStartColor: #490a3d;
+}
+
+.poly1
+{
+	borderColor: #bd1550;
+	borderThickness: 9;
+	gradEndColor: #a7a7a7;
+	gradStartColor: #a7a7a7;
+}
+
+.poly2
+{
+	borderColor: #bd1550;
+	borderThickness: 0;
+	gradEndColor: #bd1550;
+	gradStartColor: #bd1550;
+}
+
+.poly3
+{
+	borderColor: #2f4e48;
+	borderThickness: 9;
+	gradEndColor: #a7a7a7;
+	gradStartColor: #a7a7a7;
+}
+
+.poly4
+{
+	borderColor: #2f4e48;
+	borderThickness: 0;
+	gradEndColor: #2f4e48;
+	gradStartColor: #2f4e48;
+}
+
+.poly5
+{
+	borderColor: #490a3d;
+	borderThickness: 9;
+	gradEndColor: #a7a7a7;
+	gradStartColor: #a7a7a7;
+}
+
+Background
+{
+	gradEnd: #e3e1d9;
+	gradStart: #949b9e;
+}
+
+Grid
+{
+	color: #e8ebe8;
+}
+
+ZArrow
+{
+	gradEndAlpha: 1;
+	gradEndColor: #333;
+	gradStartAlpha: 1;
+	gradStartColor: #333;
+	lockTintAlpha: 0;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	borderThickness: 30;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #333;
+}
+
+ZFrame.bracket
+{
+	borderColor: #2f4e48;
+	borderThickness: 0;
+	gradEndColor: #2f4e48;
+	gradStartColor: #2f4e48;
+	radius: 10;
+	thickness: 7;
+}
+
+ZFrame.circle
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndColor: #bd1550;
+	gradStartColor: #bd1550;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #f8ca00;
+	borderThickness: 0;
+	gradEndAlpha: 0.2;
+	gradEndColor: #f8ca00;
+	gradStartAlpha: 0.5;
+	gradStartColor: #f8ca00;
+}
+
+ZLabel
+{
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #490a3d;
+	fontFamily: body;
+}
+
+ZLabel.head
+{
+	color: #bd1550;
+	fontFamily: head;
+}
+
+ZLabel.strong
+{
+	color: #2f4e48;
+	fontFamily: strong;
+}
+
+ZLine
+{
+	color: #333;
+	lockTintAlpha: 0;
+}
+
+ZMarker
+{
+	alpha: 0.6;
+	color: #f8ca00;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #40abe6;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #40abe6;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #40abe6;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 30;
+}
+
+]]></style>
+  <hash>-52c07ec9</hash>
+<sync><oid>qfnhn2omn28h</oid><title>code-transformations</title><hash>-52c07ec9</hash></sync><config>U9H38fz2mr2jjX3o6sZOWRI0sIhwZxbezxfJZmd+1DIIgNXM0Nt708bC2Oiz1kWvceUQUNNhzlntqW/2oUrnSXJMD/Js15tpwGIYqpMsGRoLa3abLyd37/CW46b+dJEpr4JGI3cm7F+1D5jxd4NMr1qzFTBgJbUqtlKyrSQw218Srre1XTum0mS0RrDtuTyofI5roGKmYZoNXLLI1BXKlrLzyosIBU/G1GUuNKJJJb/5nV5fDQmceskc2WaM5oXedQrOJvtCQ4PklUEH0/XANVQnktj0xeLsVIvWKR8q3WcF1lDToSmTwU45muTUpMxCWSdxiO8TWzm+qmnAokSh7w==</config></zuiprezi>
