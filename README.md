@@ -15,4 +15,7 @@ In the branch 'roman-to-decimal' you can find an example (with git history!) wha
 This will give you an idea how we approached the kata.
 
 ## Practice yourself!
-Checkout the master branch and create a feature branch from it to practice the kata yourself.
+Clone the repository.
+Create a feature branch from master.
+Open your favorite editor and import the RomanNumeral directory.
+Don't forget to have fun!
