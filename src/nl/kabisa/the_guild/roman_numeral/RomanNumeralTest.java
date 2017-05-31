@@ -9,4 +9,9 @@ public class RomanNumeralTest {
     public void test() {
         assertTrue(true);
     }
+
+    @Test
+    public void createsMethod() {
+        toArabic();
+    }
 }
