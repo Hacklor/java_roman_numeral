@@ -1,4 +1,4 @@
-package com.philips.roman_numeral;
+package nl.kabisa.the_guild.roman_numeral;
 
 import static org.junit.Assert.assertTrue;
 
