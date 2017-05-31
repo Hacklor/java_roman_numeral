@@ -14,4 +14,7 @@ public class RomanNumeralTest {
     public void createsMethod() {
         toArabic();
     }
+
+    private void toArabic() {
+    }
 }
