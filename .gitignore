@@ -3,6 +3,7 @@
 .project
 .idea
 .iml
+*.iml
 bin
 out
 lib
