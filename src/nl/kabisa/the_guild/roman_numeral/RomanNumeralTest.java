@@ -9,6 +9,11 @@ public class RomanNumeralTest {
         toArabic();
     }
 
+    @Test
+    public void romanIBecomes1() {
+        toArabic("I");
+    }
+
     private void toArabic() {
     }
 }
