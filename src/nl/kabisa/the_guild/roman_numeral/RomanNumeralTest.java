@@ -1,14 +1,17 @@
 package nl.kabisa.the_guild.roman_numeral;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 public class RomanNumeralTest {
 
     @Test
     public void romanIBecomes1() {
-        toArabic("I");
+        assertEquals(1, toArabic("I"));
     }
 
-    private void toArabic(String roman) {
+    private int toArabic(String roman) {
+        return 0;
     }
 }
