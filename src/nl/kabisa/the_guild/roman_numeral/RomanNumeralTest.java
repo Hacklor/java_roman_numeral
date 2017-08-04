@@ -6,7 +6,7 @@ public class RomanNumeralTest {
 
     @Test
     public void createsMethod() {
-        toArabic();
+        toArabic(null);
     }
 
     @Test
@@ -14,6 +14,6 @@ public class RomanNumeralTest {
         toArabic("I");
     }
 
-    private void toArabic() {
+    private void toArabic(String roman) {
     }
 }
