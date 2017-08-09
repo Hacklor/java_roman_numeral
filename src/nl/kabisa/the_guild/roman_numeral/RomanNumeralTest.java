@@ -10,6 +10,7 @@ public class RomanNumeralTest {
     public void singleRomanNumeralToArabic() {
         assertEquals(1, toArabic("I"));
         assertEquals(5, toArabic("V"));
+        assertEquals(10, toArabic("X"));
     }
 
     private int toArabic(String roman) {
