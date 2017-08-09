@@ -7,7 +7,7 @@ import org.junit.Test;
 public class RomanNumeralTest {
 
     @Test
-    public void romanIBecomes1() {
+    public void singleRomanNumeralToArabic() {
         assertEquals(1, toArabic("I"));
         assertEquals(5, toArabic("V"));
     }
