@@ -12,6 +12,6 @@ public class RomanNumeralTest {
     }
 
     private int toArabic(String roman) {
-        return 0;
+        return 1;
     }
 }
