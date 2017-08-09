@@ -11,6 +11,11 @@ public class RomanNumeralTest {
         assertEquals(1, toArabic("I"));
     }
 
+    @Test
+    public void romanVBecomes5() {
+        assertEquals(5, toArabic("V"));
+    }
+
     private int toArabic(String roman) {
         return 1;
     }
