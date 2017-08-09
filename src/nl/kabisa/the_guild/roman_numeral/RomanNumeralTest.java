@@ -9,6 +9,7 @@ public class RomanNumeralTest {
     @Test
     public void romanIBecomes1() {
         assertEquals(1, toArabic("I"));
+        assertEquals(5, toArabic("V"));
     }
 
     @Test
