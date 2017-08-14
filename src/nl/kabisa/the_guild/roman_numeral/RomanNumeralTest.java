@@ -23,13 +23,15 @@ public class RomanNumeralTest {
     @Test
     public void addMultipleRomanDigits() {
         assertEquals(2, toArabic("II"));
+        assertEquals(3, toArabic("III"));
+        assertEquals(6, toArabic("VI"));
+        assertEquals(16, toArabic("XVI"));
     }
 
     private static final Map<String, Integer> ROMAN_TO_ARABIC = romanToArabicMap();
 
     private static Map<String,Integer> romanToArabicMap() {
         Map<String, Integer> romanToArabic = new HashMap<>();
-
 
         romanToArabic.put("I", 1);
         romanToArabic.put("V", 5);
