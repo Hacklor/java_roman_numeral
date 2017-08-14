@@ -14,6 +14,10 @@ public class RomanNumeralTest {
         assertEquals(1, toArabic("I"));
         assertEquals(5, toArabic("V"));
         assertEquals(10, toArabic("X"));
+        assertEquals(50, toArabic("L"));
+        assertEquals(100, toArabic("C"));
+        assertEquals(500, toArabic("D"));
+        assertEquals(1000, toArabic("M"));
     }
 
     private static final Map<String, Integer> ROMAN_TO_ARABIC = romanToArabicMap();
