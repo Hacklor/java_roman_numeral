@@ -17,6 +17,9 @@ public class RomanNumeralTest {
         if (roman.equals("V"))
             return 5;
 
+        if (roman.equals("X"))
+            return 10;
+
         return 1;
     }
 }
