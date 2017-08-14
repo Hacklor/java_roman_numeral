@@ -44,8 +44,8 @@ public class RomanNumeralTest {
 
     private int toArabic(String roman) {
         for (String romanDigit : ROMAN_TO_ARABIC.keySet())
-            if (roman.equals(romanDigit))
-                return ROMAN_TO_ARABIC.get(romanDigit);
+            if (roman.startsWith(romanDigit))
+                return ROMAN_TO_ARABIC.get(romanDigit) + toArabic(roman.substring(1));
 
         return 0;
     }
