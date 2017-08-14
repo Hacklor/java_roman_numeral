@@ -20,6 +20,11 @@ public class RomanNumeralTest {
         assertEquals(1000, toArabic("M"));
     }
 
+    @Test
+    public void addMultipleRomanDigits() {
+        assertEquals(2, toArabic("II"));
+    }
+
     private static final Map<String, Integer> ROMAN_TO_ARABIC = romanToArabicMap();
 
     private static Map<String,Integer> romanToArabicMap() {
