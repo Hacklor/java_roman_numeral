@@ -2,6 +2,9 @@ package nl.kabisa.the_guild.roman_numeral;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.junit.Test;
 
 public class RomanNumeralTest {
@@ -13,13 +16,23 @@ public class RomanNumeralTest {
         assertEquals(10, toArabic("X"));
     }
 
+    private static final Map<String, Integer> ROMAN_TO_ARABIC = romanToArabicMap();
+
+    private static Map<String,Integer> romanToArabicMap() {
+        Map<String, Integer> romanToArabic = new HashMap<>();
+
+        romanToArabic.put("X", 10);
+        romanToArabic.put("V", 5);
+        romanToArabic.put("I", 1);
+
+        return romanToArabic;
+    }
+
     private int toArabic(String roman) {
-        if (roman.equals("V"))
-            return 5;
+        for (String romanDigit : ROMAN_TO_ARABIC.keySet())
+            if (roman.equals(romanDigit))
+                return ROMAN_TO_ARABIC.get(romanDigit);
 
-        if (roman.equals("X"))
-            return 10;
-
-        return 1;
+        return 0;
     }
 }
